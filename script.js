@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  const apiRoot = 'https://sheltered-sands-84865.herokuapp.com/v1/task/getTasks';
+  const apiRoot = 'https://sheltered-sands-84865.herokuapp.com/v1/task/';
   const trelloApiRoot = 'https://sheltered-sands-84865.herokuapp.com/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
